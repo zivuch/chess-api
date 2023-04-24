@@ -1,0 +1,30 @@
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+/composer.lock
+/symfony.lock
+###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
+.env
+.env.test
+
+### ssl certs
+/docker/nginx/ssl/*.pem
+/docker/nginx/ssl/*.csr
+/docker/nginx/ssl/*.crt
+/docker/nginx/ssl/*.key
+
+### storage
+/storage/tmp/*
+!/storage/tmp/.gitkeep

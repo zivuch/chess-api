@@ -1,0 +1,59 @@
+api_autocomplete:
+    path:       /api/autocomplete
+    controller: ChessApi\Controller\AutocompleteController::index
+    methods:    GET
+
+api_download_mp4:
+    path:       /api/download/mp4
+    controller: ChessApi\Controller\DownloadMp4Controller::index
+    methods:    POST
+
+api_download_image:
+    path:       /api/download/image
+    controller: ChessApi\Controller\DownloadImageController::index
+    methods:    POST
+
+api_engine_stockfish:
+    path:       /api/engine/stockfish
+    controller: ChessApi\Controller\EngineStockfishController::index
+    methods:    POST
+
+api_grandmaster:
+    path:       /api/grandmaster
+    controller: ChessApi\Controller\GrandmasterController::index
+    methods:    POST
+
+api_play_lan:
+    path:       /api/play/lan
+    controller: ChessApi\Controller\PlayLanController::index
+    methods:    POST
+
+api_play_pgn:
+    path:       /api/play/pgn
+    controller: ChessApi\Controller\PlayPgnController::index
+    methods:    POST
+
+api_opening:
+    path:       /api/opening
+    controller: ChessApi\Controller\OpeningController::index
+    methods:    POST
+
+api_search:
+    path:       /api/search
+    controller: ChessApi\Controller\SearchController::index
+    methods:    POST
+
+api_stats_event:
+    path:       /api/stats/event
+    controller: ChessApi\Controller\StatsEventController::index
+    methods:    POST
+
+api_stats_opening:
+    path:       /api/stats/opening
+    controller: ChessApi\Controller\StatsOpeningController::index
+    methods:    GET
+
+api_stats_player:
+    path:       /api/stats/player
+    controller: ChessApi\Controller\StatsPlayerController::index
+    methods:    POST
